@@ -81,7 +81,7 @@ def run_scraper(max_pages=10, progress_bar=None, status_text=None):
                 break
             
             # サーバー負荷軽減のための待機
-            time.sleep(1.5)
+            time.sleep(5)
         
         return job_data
     
